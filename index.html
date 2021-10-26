@@ -43,7 +43,7 @@
             width: 50%;
 
             /* background: url('https://i.imgur.com/2WQui47.jpg'); */
-            
+
 
             background-size: 50% 50%;
             background-position: center;
@@ -1010,7 +1010,7 @@
         .prev,
         .next {
             position: absolute;
-            top: 50%;
+            top: 35%;
             left: 5%;
             width: 40px;
             height: 40px;
@@ -1070,13 +1070,54 @@
             transform: translateY(0);
         }
 
+        @media screen and (min-width: 1200px) {
+            .update-card {
+                margin-top: 2%;
+            }
+
+            .updates {
+                margin-bottom: 5%;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .update-card {
+                max-width: 55%;
+            }
+
+            .updates {
+                margin-bottom: 10%;
+            }
+
+            .info h1 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+
+            .info p {
+                font-size: 13px;
+                margin-bottom: 10px;
+            }
+
+            .info a {
+                font-size: 10px;
+                padding: 2% 5%;
+            }
+        }
+
         @media screen and (max-width: 900px) {
             .update-card {
-                max-width: 70%;
+                max-width: 60%;
+                padding: 3%;
+                top: 45%;
             }
         }
 
         @media screen and (max-width: 800px) {
+            .updates {
+                height: 70%;
+            }
+
             .udpate-card {
                 text-align: center;
             }
@@ -1092,21 +1133,40 @@
             .info a {
                 float: none;
             }
+
+            .info h1 {
+                font-size: 25px;
+            }
         }
 
         @media screen and (max-width: 650px) {
-            .update-card {
-                padding: 4%;
+
+            .updates {
+                margin-bottom: 10%;
             }
 
-            .update-card img,
-            .update-card .img {
-                width: 60%;
-                margin-bottom: 5%;
+            .update-card {
+                max-width: 60%;
+                padding: 5%;
+                grid-template-columns: 1fr;
+                text-align: center;
+                grid-gap: 0;
+            }
+
+            .update-img {
+                display: none;
             }
 
             .info {
                 width: 100%;
+            }
+
+            .info a {
+                font-size: 10px;
+            }
+
+            .info h1 {
+                font-size: 20px;
             }
 
             .prev {
@@ -1118,17 +1178,51 @@
             }
         }
 
-        @media screen and (max-height: 450px) and (orientation: landscape) {
+        @media screen and (max-width: 450px)
 
-            .update-card img,
-            .update-card .update-img {
-                width: 40%;
-                margin-bottom: 0;
+        /*and
+
+        (orientation: landscape)*/
+            {
+            .updates {
+                height: 60%;
             }
 
             .info {
-                width: 59%;
-                padding-left: 5%;
+                width: 100%;
+                text-align: center;
+                margin: 2%;
+            }
+
+            .update-img {
+                display: none;
+            }
+
+            .info h1 {
+                font-size: 18px;
+                text-align: center;
+                margin-bottom: 1.25em !important;
+            }
+
+            .info a {
+                font-size: 10px;
+                width: 45vw;
+                margin-bottom: 0;
+                padding: 4% 2%;
+            }
+
+            .update-card {
+                grid-template-columns: 1fr;
+                text-align: center;
+                grid-gap: 0;
+                box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+                top: 30%;
+                max-width: 60%;
+            }
+
+            .next,
+            .prev {
+                top: 23%;
             }
         }
 
