@@ -110,10 +110,10 @@
             margin: 5em 0;
         }
 
-        .row.d-flex.linux-yourself {
+        /*.row.d-flex.linux-yourself {
             margin-right: -15px;
             margin-left: -15px;
-        }
+        } */
 
         .col-md-6.pl-md-5.py-5.linux-yourself,
         .col-md-6.pl-md-5.py-5.linux-yourself h2 {
@@ -127,6 +127,9 @@
             color: #00b4db !important;
         }
 
+        .page-title a:hover {
+            color: white !important;
+        }
 
         .btn:hover {
             color: white !important;
@@ -135,12 +138,16 @@
             box-shadow: -2px 2px 2px black;
         }
 
-        /* ------------------- read more --------------- */
+        /* ------------------- read more buttons --------------- */
         #more {
             display: none;
         }
 
         #more2 {
+            display: none;
+        }
+
+        #more3 {
             display: none;
         }
 
@@ -150,6 +157,22 @@
 
         #myBtn2 {
             background-color: white;
+        }
+
+        #myBtn3 {
+            background-color: white;
+        }
+
+        #myBtn:hover {
+            background-color: #0077b6;
+        }
+
+        #myBtn2:hover {
+            background-color: #0077b6;
+        }
+
+        #myBtn3:hover {
+            background-color: #0077b6;
         }
 
 
@@ -319,6 +342,52 @@
             margin-top: -8%;
             color: #000000 !important;
         }
+
+        /* ----------- MEDIA QUERIES -------------- */
+        @media screen and (max-width: 450px) {
+            .container {
+                padding-right: 0;
+                padding-left: 0;
+            }
+
+            .col-md-6 {
+                max-width: 100%;
+            }
+
+            .col-md-6.pl-md-5.py-5 {
+                padding-right: 1em;
+                padding-left: 1em;
+            }
+
+            .ftco-section {
+                padding: 0 0;
+            }
+
+            .row.d-flex .mobile-odd {
+                flex-direction: column-reverse;
+            }
+
+            .ftco-section.ftco-about.img {
+                margin: 0;
+            }
+
+            .col-md-6.pl-md-5.py-5:last-of-type {
+                margin-bottom: 5em;
+            }
+
+            .ftco-footer .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            #big-pic-2 {
+                width: 90% !important;
+            }
+
+            #big-pic-1 {
+                width: 100% !important;
+            }
+        }
     </style>
 </head>
 
@@ -393,7 +462,7 @@
 
 
 
-    <section class="ftco-section ftco-about img" style="padding-bottom: 0px;">
+    <section class="ftco-section ftco-about img" style="padding-bottom: 0px; padding-top: 0;">
         <div class="container">
             <div class="row d-flex linux-yourself">
                 <div class="col-md-12 about-intro">
@@ -401,7 +470,7 @@
                         <div class="col-md-6 d-flex align-items-stretch">
                             <div
                                 class="img img-sunil d-flex align-items-center align-self-stretch justify-content-center">
-                                <img src="IMAGES/achievements/linux.jpeg" alt="sunil-book">
+                                <img src="IMAGES/achievements/linux.jpeg" alt="sunil-book" style="width: 60%">
 
 
 
@@ -413,21 +482,21 @@
 
                                     <h2 class="mb-4">Launch of Book, Linux Yourself: Concept and Programming authored by
                                         Dr.
-                                        Sunil K. Singh, Professor & HOD, CSE, CCET, and Faculty Mentor, CASC.</h2>
+                                        Sunil K. Singh</h2>
                                     <p>This book is published by Chapman and Hall/CRC (Taylor & Francies Group) at Boca
                                         Raton,
                                         Florida USA. Numerous people still believe that learning and acquiring expertise
                                         in Linux
                                         is not easy, and only a professional can understand that how a Linux system
-                                        works. Nowadays,
+                                        works.
+                                        <!--Nowadays,
                                         Linux has gained much popularity both at home and at the workplace. This book,
                                         Linux Yourself:
                                         Concept and Pro- gramming, aims to help and guide the people of all ages to
                                         offer a deep insight
                                         into the concept of Linux, its usage, programming, administration, and several
                                         other related
-                                        topics in an easy approach.
-
+                                        topics in an easy approach.-->
                                         <br>
                                         <br>
                                         E-book link
@@ -467,7 +536,7 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-md-12 about-intro">
-                    <div class="row d-flex">
+                    <div class="row d-flex mobile-odd">
                         <div class="col-md-6 pl-md-5 py-5">
                             <div class="row justify-content-start pb-3">
                                 <div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
@@ -569,11 +638,11 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section ftco-about img" style="padding-top: 50px;">
+    <section class="ftco-section ftco-about img">
         <div class="container">
             <div class="row d-flex">
                 <div class="col-md-12 about-intro">
-                    <div class="row d-flex">
+                    <div class="row d-flex mobile-odd">
                         <div class="col-md-6 pl-md-5 py-5">
                             <div class="row justify-content-start pb-3">
                                 <div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
@@ -590,9 +659,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 d-flex right-align align-items-stretch">
+                        <div class="col-md-6 d-flex right-align align-items-stretch" style="justify-content: center;">
                             <div class="img d-flex align-items-center align-self-stretch justify-content-center"
-                                style="background-image:url(IMAGES/achievements/Hybrid_cloud.jpeg)">
+                                style="background-image:url(IMAGES/achievements/Hybrid_cloud.jpeg); width: 65%;"
+                                id="big-pic-1">
 
 
                             </div>
@@ -641,7 +711,7 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-md-12 about-intro">
-                    <div class="row d-flex">
+                    <div class="row d-flex mobile-odd">
                         <div class="col-md-6 pl-md-5 py-5">
                             <div class="row justify-content-start pb-3">
                                 <div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
@@ -655,29 +725,32 @@
                                         lighting
                                         of the symbolic lamp, followed by cultural performances from the University's
                                         clubs.
-                                        The president of ACM India, Prof. Abhiram Ranade, professor at IIT Bombay
-                                        started the
-                                        presentation by highlighting the goal of ACM, the advancement of computing as a
-                                        science
-                                        and profession. Emphasizing the aim of ACM, he spoke about the numerous
-                                        divisions and
-                                        various activities of ACM. Dr. Rajveer Singh Shekhawat, the director of SCIT at
-                                        MUJ spoke
-                                        about the growth of MUJ ACM Students Chapter, and highlighted the various
-                                        activities undertaken
-                                        by the chapter, like the student teaching student mentorship program and
-                                        interactive sessions,
-                                        including the annual techno-cultural fest of the chapter, ELICIT..</p>
-
-
+                                        The president of ACM India, Prof. Abhiram Ranade,<span id="dots3">...</span>
+                                        <span id="more3">
+                                            professor at IIT Bombay
+                                            started the
+                                            presentation by highlighting the goal of ACM, the advancement of computing
+                                            as a
+                                            science
+                                            and profession. Emphasizing the aim of ACM, he spoke about the numerous
+                                            divisions and
+                                            various activities of ACM. Dr. Rajveer Singh Shekhawat, the director of SCIT
+                                            at
+                                            MUJ spoke
+                                            about the growth of MUJ ACM Students Chapter, and highlighted the various
+                                            activities undertaken
+                                            by the chapter, like the student teaching student mentorship program and
+                                            interactive sessions,
+                                            including the annual techno-cultural fest of the chapter, ELICIT..</span>
+                                    </p>
+                                    <span onclick="myFunction3()" id="myBtn3" class="btn">Read more</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 d-flex right-align align-items-stretch">
+                        <div class="col-md-6 d-flex right-align align-items-stretch" style="justify-content: center;">
                             <div class="img d-flex align-items-center align-self-stretch justify-content-center"
-                                style="background-image:url(IMAGES/achievements/Summit_Jaipur.jpg)">
-
-
+                                style="background-image:url(IMAGES/achievements/Summit_Jaipur.jpg); width: 60%;"
+                                id="big-pic-2">
                             </div>
                         </div>
                     </div>
@@ -859,6 +932,23 @@
             var dots = document.getElementById("dots2");
             var moreText = document.getElementById("more2");
             var btnText = document.getElementById("myBtn2");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+    <script>
+        function myFunction3() {
+            var dots = document.getElementById("dots3");
+            var moreText = document.getElementById("more3");
+            var btnText = document.getElementById("myBtn3");
 
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
