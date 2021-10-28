@@ -7,19 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/9732865b92.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Arizonia&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css%2bowl.carousel.min.css%2bowl.theme.default.min.css%2bmagnific-popup.css%2bflaticon.css%2bstyle.css.pagespeed.cc.tVkclJh8gl.css" />
+    <link rel="stylesheet"
+        href="css/animate.css%2bowl.carousel.min.css%2bowl.theme.default.min.css%2bmagnific-popup.css%2bflaticon.css%2bstyle.css.pagespeed.cc.tVkclJh8gl.css" />
     <style>
         /* CARDS */
-        
+
         .cards {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
         }
-        
+
         .card {
             margin: 20px;
             padding: 20px;
@@ -33,74 +36,77 @@
             /**/
             max-width: 100vw;
         }
-        
+
         .card:hover {
             box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
             transform: scale(1.01);
         }
-        
+
         .services-3:hover {
             box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
             transform: scale(1.01);
         }
-        
+
         .card__icon {
             grid-row: 1/3;
             font-size: 30px;
             color: #ffffff;
         }
-        
+
         .card__title {
             grid-row: 3/3;
             font-size: 20px;
             font-weight: 500;
             color: #ffffff;
         }
+
         /* CARD BACKGROUNDS */
-        
+
         .card-1 {
             background-color: #0077b6;
         }
-        
+
         .card-2 {
             background-color: #0077b6;
         }
-        
+
         .card-3 {
             background-color: #0077b6;
         }
-        
+
         .card-4 {
             background-color: #0077b6;
         }
-        
+
         .card-5 {
             background-color: #0077b6;
         }
+
         /* CREATIVE DESIGN  */
-        
+
         .project-wrap::after {
             background-color: #48cae4 !important;
         }
-        
+
         .project-wrap::before {
             background-color: #48cae4 !important;
         }
+
         /* RESPONSIVE */
-        
+
         @media (max-width: 1600px) {
             .cards {
                 justify-content: center;
             }
         }
-        
+
         @media (max-width: 576px) {
             .card {
                 /*max-width: 100vw;*/
                 max-width: 80vw;
             }
         }
-        
+
         hr {
             display: block;
             /* margin: 0px 0 -15px; */
@@ -111,7 +117,7 @@
             border: 0;
             background-color: #0077b6;
         }
-        
+
         hr+h2.hr-text {
             display: inline-block;
             position: relative;
@@ -127,12 +133,13 @@
             text-align: center;
             background-color: #d0f4fc;
         }
-        
+
         hr+h2.hr-text::first-letter {
             margin-left: 0.32em;
         }
-        
+
         @media (max-width: 1091px) and (min-width: 752px) {
+
             /* div #photo1{
         padding-top: 30%;
       } */
@@ -141,15 +148,15 @@
                 /* height: 70%; */
             }
         }
-        
+
         .uday h3 {
             opacity: 0;
         }
-        
+
         .uday:hover h3 {
             opacity: 1;
         }
-        
+
         .botn {
             cursor: pointer;
             margin-top: 1.5rem;
@@ -163,11 +170,58 @@
             border: none;
             background-image: linear-gradient(to right, #03045e, #023e8a, #0077b6);
         }
-        
+
         .botn:hover {
             color: black;
             background-image: linear-gradient(to right, #caf0f8, #90e0ee, #00b4d8);
             background-color: #0d0d0d;
+        }
+
+        /* ----------------------- imported header and navbar styles -------------------- */
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        #hero-wrap .hero-container {
+            background-image: url('IMAGES/header-photo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 45vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #hero-wrap a {
+            color: inherit;
+        }
+
+        #hero-wrap .hero-container .page-title {
+            font-size: 3rem;
+            color: white;
+            letter-spacing: 2.5px;
+            font-weight: bold;
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+
+        #hero-wrap .hero-container .page-title span {
+            font-size: 1.5rem;
+        }
+
+        .main {
+            height: 100vh;
+        }
+
+        @media screen and (max-width: 500px) {
+            #hero-wrap .hero-container .page-title {
+                font-size: 1.7rem;
+                line-height: 35px;
+            }
+
+            #hero-wrap .hero-container span {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
@@ -207,9 +261,11 @@
                     <img class="logo-w" style="width: 55%;" src="IMAGES/ccet-acm-logo-website-white.png" alt="CCET">
 
                 </a>
-                <button style="padding-left: 30%;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> <i class="fas fa-bars fa-2x"></i>
-        </button>
+                <button style="padding-left: 30%;" class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> <i class="fas fa-bars fa-2x"></i>
+                </button>
             </div>
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
@@ -219,18 +275,20 @@
                     <!-- <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li> -->
                     <!--*********** copy ********** -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Events
-                      </a>
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Events
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #00b4d8;">
                             <a class="dropdown-item" href="events.html">Events</a>
                             <a class="dropdown-item" href="competitions.html">Competitions</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Team
-                      </a>
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Team
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #00b4d8;">
                             <a class="dropdown-item" href="2021-team.html">Office Bearers</a>
                             <a class="dropdown-item" href="Executive_Members.html">Executive Members</a>
@@ -247,7 +305,7 @@
         </div>
     </nav>
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url(IMAGES/header-photo.jpg);">
+    <!-- <section class="hero-wrap hero-wrap-2" style="background-image: url(IMAGES/header-photo.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-end">
@@ -258,16 +316,29 @@
                 </div>
             </div>
         </div>
+    </section>-->
+
+    <section id="hero-wrap">
+        <div class="hero-container">
+            <div class="container page-title">
+                <a style="margin-left:20px;">DESIGN TEAM</a>
+
+            </div>
+        </div>
+
     </section>
 
-    <section class="ftco-section ftco-faqs services-section bg-darken" style="padding-top: 1em;background-color: #caf7f8 !important;">
+    <section class="ftco-section ftco-faqs services-section bg-darken"
+        style="padding-top: 1em;background-color: #caf7f8 !important;">
         <div class="overlay"></div>
         <div class="container col-md-10">
             <h2 class="subheading" style="text-align: center; color: #03045e;font-size: 3.5em;">Benefits</h2>
             <div class="row d-flex">
                 <div class="col-md-6 mb-5 md-md-0" id="photo1">
-                    <div class="img w-100 mb-4" id="img1" style="height: 90%; padding-top: 5em;position: relative; top: 10%;">
-                        <img src="IMAGES/Vectors/design_copy.png" height="550" width="550" style="vertical-align:middle;margin:100px 0px">
+                    <div class="img w-100 mb-4" id="img1"
+                        style="height: 90%; padding-top: 5em;position: relative; top: 10%;">
+                        <img src="IMAGES/Vectors/design_copy.png" height="550" width="550"
+                            style="vertical-align:middle;margin:100px 0px">
                     </div>
 
 
@@ -282,23 +353,27 @@
 
                         <div class="services-3">
                             <h3> Multiple Specialties </h3>
-                            <p style="font-weight: bold;"> The Design Team has and trains designers in their fields of interest - typography, web design, illustration, user experience design and more.
+                            <p style="font-weight: bold;"> The Design Team has and trains designers in their fields of
+                                interest - typography, web design, illustration, user experience design and more.
                             </p>
                         </div>
 
                         <div class="services-3">
                             <h3> Frequent Events </h3>
-                            <p style="font-weight: bold;">The CASC Design Team is always on their toes for some event or competition in the design field.
+                            <p style="font-weight: bold;">The CASC Design Team is always on their toes for some event or
+                                competition in the design field.
                             </p>
                         </div>
                         <div class="services-3">
                             <h3> Active Group Discussions </h3>
-                            <p style="font-weight: bold;"> The members of the Design Team are always well connected to each other via active social media groups.
+                            <p style="font-weight: bold;"> The members of the Design Team are always well connected to
+                                each other via active social media groups.
                             </p>
                         </div>
                         <div class="services-3">
                             <h3> Improved Productivity </h3>
-                            <p style="font-weight: bold;">Teams that work together are more productive and motivated towards their goals. The CASC Design Team is no exception to that.
+                            <p style="font-weight: bold;">Teams that work together are more productive and motivated
+                                towards their goals. The CASC Design Team is no exception to that.
                             </p>
                         </div>
                     </div>
@@ -325,7 +400,8 @@
                     <div class="card card-1">
                         <div class="card__icon" style="color:white"><i class="fas fa-bolt"></i></div>
                         <h3 class="card__title">
-                            <h2 style="margin-left: -8.7%;" class="card__title"> Conducting various events and competitions.
+                            <h2 style="margin-left: -8.7%;" class="card__title"> Conducting various events and
+                                competitions.
                         </h3>
                     </div>
                     <div class="card card-2">
@@ -388,7 +464,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-4 ftco-animate justify-content-center ">
                     <!-- <a href="./pdf-viewer/digital-outlet-v1i2.html"> -->
-                    <div class="project-wrap img d-flex align-items-end uday" style="background-image:url(IMAGES/COMPETITIONS/logo\ des\ com.jpeg)">
+                    <div class="project-wrap img d-flex align-items-end uday"
+                        style="background-image:url(IMAGES/COMPETITIONS/logo\ des\ com.jpeg)">
                         <div class="text">
                             <h3 style="color:white" ;>Logo Design Competition</h3>
                         </div>
@@ -397,7 +474,8 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <!-- <a href="./pdf-viewer/digital-outlet-v1i2.html"> -->
-                    <div class="project-wrap img d-flex align-items-end uday" style="background-image:url(IMAGES/Events/1-01.png)">
+                    <div class="project-wrap img d-flex align-items-end uday"
+                        style="background-image:url(IMAGES/Events/1-01.png)">
                         <div class="text">
                             <h3 style="color:white">Logo Designing in Adobe Illustrator</h3>
                         </div>
@@ -421,9 +499,12 @@
                 <div class="col-sm-12 col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2 logo">
-                            <a href="#"><img style="width: 40%;" src="IMAGES/ccet-acm-logo-website-white.png" alt="CCET LOGO"></a>
+                            <a href="#"><img style="width: 40%;" src="IMAGES/ccet-acm-logo-website-white.png"
+                                    alt="CCET LOGO"></a>
                         </h2>
-                        <p>ACM boosts up the potential and talent, supporting the overall development needs of our students to facilitate a structured path from education to employment by providing a safe and supported space where creative talent and imagination
+                        <p>ACM boosts up the potential and talent, supporting the overall development needs of our
+                            students to facilitate a structured path from education to employment by providing a safe
+                            and supported space where creative talent and imagination
                             can flourish in a caring environment.
                         </p>
                         <ul class="ftco-footer-social list-unstyled mt-2" style="margin-left: -25%;">
@@ -501,7 +582,8 @@
     <script>
         eval(mod_pagespeed_mukP_p5mwJ);
     </script>
-    <script src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js"></script>
+    <script
+        src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js"></script>
     <script>
         eval(mod_pagespeed_5LBDxQvOMp);
     </script>
@@ -514,7 +596,8 @@
     <script>
         eval(mod_pagespeed_c_aV2CVVmg);
     </script>
-    <script src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js"></script>
+    <script
+        src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js"></script>
     <script>
         eval(mod_pagespeed_bW87uRdxE$);
     </script>
@@ -524,7 +607,8 @@
     <script>
         eval(mod_pagespeed_t39KiUcvzC);
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
     <script>
         eval(mod_pagespeed_lmdbQdpk6z);
     </script>
@@ -543,7 +627,8 @@
 
         gtag('config', 'UA-23581568-13');
     </script>
-    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"69470d3cbec81b98","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.8.1","si":10}'></script>
+    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"rayId":"69470d3cbec81b98","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.8.1","si":10}'></script>
 
 </body>
 
