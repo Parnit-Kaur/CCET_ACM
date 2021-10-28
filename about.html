@@ -575,6 +575,24 @@
             background-image: linear-gradient(to right, #caf0f8, #90e0ee, #00b4d8);
             background-color: #0d0d0d;
         }
+
+        .h2_explore {
+            margin-left: 95px;
+        }
+
+        .li_explore {
+            padding-left: 0px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .h2_explore {
+                margin-left: 0px;
+            }
+
+            .li_explore {
+                margin-left: 0px;
+            }
+        }
     </style>
     <script type="text/javascript" charset="UTF-8"
         src="https://maps.googleapis.com/maps-api-v3/api/js/46/9/common.js"></script>
@@ -703,10 +721,11 @@
                             <div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
                                 <span class="subheading">About ACM</span>
                                 <h2 class="mb-4">Association of Computing Machinery</h2>
-                                <h4 style="color:#777777;font: size 22px; ">“Advancing Computing as a Science &amp;
+                                <h4 style="color:black;font: size 22px; ">“Advancing Computing as a Science &amp;
                                     Profession”.
                                 </h4>
-                                <p>The Association for Computing Machinery (ACM) is an international learned society for
+                                <p style="color: black;">The Association for Computing Machinery (ACM) is an
+                                    international learned society for
                                     computing. It was founded in 1947 and is the world’s largest scientific and
                                     educational computing society. It is a not-for-profit professional
                                     membership group. Its membership is more than 100,000 as of 2011. It's headquarters
@@ -746,7 +765,9 @@
                         <div class="au-card__overlay "></div>
                         <div class="au-card__content ">
                             <h2><b>Our Mission</b></h2>
-                            <p>To provide an immersive student experience, with a curriculum which is connected to the
+                            <p>To provide an immersive student experience, with a
+                                curriculum which
+                                is connected to the
                                 industry in real-time, based on a learning by doing ethos. Our core objective is to
                                 build confidence and self-awareness, providing students
                                 with the skills necessary to recognise and take opportunities.</p>
@@ -816,7 +837,7 @@
                                 aria-labelledby="headingOne ">
                                 <div class="card-body py-3 px-0 ">
 
-                                    <p>
+                                    <p style="color: black;">
                                         CCET ACM Student Chapter believes in providing a healthy environment where
                                         creativity and imagination can flourish. Through collaboration and engagement in
                                         a plethora of technical activities and projects, we envision to build a
@@ -825,7 +846,7 @@
                                     </p>
                                     <br>
                                     <ol
-                                        style="position: relative; color: #777777; font-size: 16px; margin-bottom: 35px; line-height: 1.8em; padding-left: 95px; font-family: 'Cabin', sans-serif; font-weight: 400; ">
+                                        style="position: relative; color: black; font-size: 16px; margin-bottom: 35px; line-height: 1.8em; padding-left: 95px; font-family: 'Cabin', sans-serif; font-weight: 400; ">
                                         <span class="icon flaticon-check-symbol "></span>
                                         <ul><i class="fas fa-check " style="color: #1DA1F2; font-size: 1.5em; "
                                                 aria-hidden="true "></i> Guest lectures Weekly Interactive Classes</ul>
@@ -859,204 +880,227 @@
         </div>
     </section>
 
-</body>
-<!-- ********************************** FOOTER ************************************************* -->
 
-<footer class="ftco-footer" style="padding-bottom: 1px;">
-    <div id="contact"></div>
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-sm-12 col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2 logo">
-                        <a href="#"><img style="width: 40%;" src="IMAGES/ccet-acm-logo-website-white.png"
-                                alt="CCET LOGO"></a>
-                    </h2>
-                    <p>ACM boosts up the potential and talent, supporting the overall development needs of our students
-                        to facilitate a structured path from education to employment by providing a safe and supported
-                        space where creative talent and imagination
-                        can flourish in a caring environment.
-                    </p>
-                    <ul class="ftco-footer-social list-unstyled mt-2" style="margin-left: -25%;">
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-youtube"></span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md">
-                <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <h2 class="ftco-heading-2" style="margin-left: 29%;">Explore</h2>
-                    <ul class="list-unstyled">
-                        <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="2021-team.html" class="nav-link">Team</a></li>
-                        <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
-                        <li class="nav-item"><a href="https://www.ccet.ac.in" class="nav-link">College Website</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Contact US</h2>
-                    <div class="block-23 mb-3">
-                        <ul>
-                            <li>Chandigarh College of Engineering and Technology Degree Wing Sector - 26, Chandigarh
+    <!-- ********************************** FOOTER ************************************************* -->
+
+    <footer class="ftco-footer" style="padding-bottom: 1px;">
+        <div id="contact"></div>
+        <div class="container" style="padding-left: 40px !important;">
+            <div class="row mb-5">
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2 logo">
+                            <a href="#"><img style="width: 40%;" src="IMAGES/ccet-acm-logo-website-white.png"
+                                    alt="CCET LOGO"></a>
+                        </h2>
+                        <p>ACM boosts up the potential and talent, supporting the overall development needs of our
+                            students to facilitate a structured path from education to employment by providing a safe
+                            and supported space where creative talent and imagination
+                            can flourish in a caring environment.
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled mt-2" style="margin-left: -25%;">
+                            <li class="ftco-animate"><a href="https://twitter.com/acmccet"><span class="fa fa-twitter"
+                                        target="_blank"></span></a>
                             </li>
-                            <br>
-                            <li><a href="https://www.ccet.ac.in">Website: www.ccet.ac.in</a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/acmccet/"><span
+                                        class="fa fa-facebook" target="_blank"></span></a></li>
+                            <li class="ftco-animate"><a
+                                    href="https://www.instagram.com/acmccet/?igshid=1f75geliybfix"><span
+                                        class="fa fa-instagram" target="_blank"></span></a></li>
+                            <li class="ftco-animate"><a
+                                    href="https://www.linkedin.com/in/ccet-acm-student-chapter/?originalSubdomain=in"><span
+                                        class="fa fa-linkedin" target="_blank"></span></a></li>
+                            <li class="ftco-animate"><a
+                                    href="https://www.youtube.com/channel/UCdqrwqNB9ibYjFpBkMA-4iQ"><span
+                                        class="fa fa-youtube" target="_blank"></span></a>
+                            </li>
+                            <li class="ftco-animate"><a href="mailto:acm@ccet.ac.in"><span class="fa fa-envelope"
+                                        target="_blank"></span></a>
                             </li>
                         </ul>
-                        <ul>
-                            <a href="Webmasters.html"><button class="botn">Webmasters</button></a>
-                            <a href="magazine/magazine.html"><button class="botn"
-                                    style="margin-left:30px;">Magazine</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget explore mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2 h2_explore">Explore</h2>
+                        <ul class="list-unstyled" style="padding-left: 0px;">
+                            <li class="nav-item active h2_explore"><a href="index.html"
+                                    class="nav-link li_explore">Home</a>
+                            </li>
+                            <li class="nav-item h2_explore"><a href="about.html" class="nav-link li_explore">About</a>
+                            </li>
+                            <li class="nav-item h2_explore"><a href="2021-team.html"
+                                    class="nav-link li_explore">Team</a>
+                            </li>
+                            <li class="nav-item h2_explore"><a href="achievements.html"
+                                    class="nav-link li_explore">Achievements</a></li>
+                            <li class="nav-item h2_explore"><a href="https://www.ccet.ac.in"
+                                    class="nav-link li_explore">College Website</a>
+                            </li>
                         </ul>
-                        <!-- <ul style="display: inline;"  class="ftco-footer-social list-unstyled mt-2">
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-youtube"></span></a></li>
-                    </ul> -->
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Contact US</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li>Chandigarh College of Engineering and Technology Degree Wing Sector - 26, Chandigarh
+                                </li>
+                                <br>
+                                <li><a href="https://www.ccet.ac.in">Website: www.ccet.ac.in</a></li>
+                                </li>
+                            </ul>
+                            <ul>
+                                <a href="Webmasters.html"><button class="botn">Webmasters</button></a>
+                                <a href="magazine/magazine.html"><button class="botn"
+                                        style="margin-left:30px;">Magazine</button></a>
+                            </ul>
+
+                            <!-- <ul style="display: inline;"  class="ftco-footer-social list-unstyled mt-2">
+                    <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="fa fa-youtube"></span></a></li>
+                </ul> -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+
+    </footer>
 
 
-<!-- <?php include 'footer.php'?> -->
+    <!-- <?php include 'footer.php'?> -->
 
-<!-- ******************************************** FOOTER END **************************************************** -->
+    <!-- ******************************************** FOOTER END **************************************************** -->
 
-<!-- <div id="ftco-loader " class="fullscreen "><svg class="circular " width="48px " height="48px ">
+    <!-- <div id="ftco-loader " class="fullscreen "><svg class="circular " width="48px " height="48px ">
             <circle class="path-bg " cx="24 " cy="24 " r="22 " fill="none " stroke-width="4 " stroke="#eeeeee "></circle>
             <circle class="path " cx="24 " cy="24 " r="22 " fill="none " stroke-width="4 " stroke-miterlimit="10 " stroke="#F96D00 "></circle>
         </svg></div> -->
-<script src="js/jquery.min.js "></script>
-<script src="js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.JASJvy2p6F.js "></script>
-<script>
-    eval(mod_pagespeed_rofLaRKIL4);
-</script>
-<script>
-    eval(mod_pagespeed_O55HKXLZnL);
-</script>
-<script>
-    eval(mod_pagespeed_mukP_p5mwJ);
-</script>
-<script
-    src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js "></script>
-<script>
-    eval(mod_pagespeed_5LBDxQvOMp);
-</script>
-<script>
-    eval(mod_pagespeed_men54686W3);
-</script>
-<script>
-    eval(mod_pagespeed_MTpE$V0lEy);
-</script>
-<script>
-    eval(mod_pagespeed_c_aV2CVVmg);
-</script>
-<script
-    src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js "></script>
-<script>
-    eval(mod_pagespeed_bW87uRdxE$);
-</script>
-<script>
-    eval(mod_pagespeed_KI316L8Msq);
-</script>
-<script>
-    eval(mod_pagespeed_t39KiUcvzC);
-</script>
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false "></script>
-<script>
-    eval(mod_pagespeed_lmdbQdpk6z);
-</script>
-<script>
-    eval(mod_pagespeed_TUbgfw69GQ);
-</script>
+    <script src="js/jquery.min.js "></script>
+    <script
+        src="js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.JASJvy2p6F.js "></script>
+    <script>
+        eval(mod_pagespeed_rofLaRKIL4);
+    </script>
+    <script>
+        eval(mod_pagespeed_O55HKXLZnL);
+    </script>
+    <script>
+        eval(mod_pagespeed_mukP_p5mwJ);
+    </script>
+    <script
+        src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js "></script>
+    <script>
+        eval(mod_pagespeed_5LBDxQvOMp);
+    </script>
+    <script>
+        eval(mod_pagespeed_men54686W3);
+    </script>
+    <script>
+        eval(mod_pagespeed_MTpE$V0lEy);
+    </script>
+    <script>
+        eval(mod_pagespeed_c_aV2CVVmg);
+    </script>
+    <script
+        src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js "></script>
+    <script>
+        eval(mod_pagespeed_bW87uRdxE$);
+    </script>
+    <script>
+        eval(mod_pagespeed_KI316L8Msq);
+    </script>
+    <script>
+        eval(mod_pagespeed_t39KiUcvzC);
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false "></script>
+    <script>
+        eval(mod_pagespeed_lmdbQdpk6z);
+    </script>
+    <script>
+        eval(mod_pagespeed_TUbgfw69GQ);
+    </script>
 
-<script async=" " src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13 "></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+    <script async=" " src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13 "></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-23581568-13');
-</script>
-<script defer=" " src="../../../static.cloudflareinsights.com/beacon.min.js "
-    data-cf-beacon="{&quot;rayId&quot;:&quot;69470d4669111b6e&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.8.1&quot;,&quot;si&quot;:10} "></script>
-
-
-<!-- Mirrored from preview.colorlib.com/theme/portech/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Sep 2021 20:37:57 GMT -->
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer=" " src="../../../static.cloudflareinsights.com/beacon.min.js "
+        data-cf-beacon="{&quot;rayId&quot;:&quot;69470d4669111b6e&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.8.1&quot;,&quot;si&quot;:10} "></script>
 
 
-<script>
-    eval(mod_pagespeed_O55HKXLZnL);
-</script>
-<script>
-    eval(mod_pagespeed_mukP_p5mwJ);
-</script>
-<script
-    src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js "></script>
-<script>
-    eval(mod_pagespeed_5LBDxQvOMp);
-</script>
-<script>
-    eval(mod_pagespeed_men54686W3);
-</script>
-<script>
-    eval(mod_pagespeed_MTpE$V0lEy);
-</script>
-<script>
-    eval(mod_pagespeed_c_aV2CVVmg);
-</script>
-<script
-    src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js "></script>
-<script>
-    eval(mod_pagespeed_bW87uRdxE$);
-</script>
-<script>
-    eval(mod_pagespeed_KI316L8Msq);
-</script>
-<script>
-    eval(mod_pagespeed_t39KiUcvzC);
-</script>
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false "></script>
-<script>
-    eval(mod_pagespeed_lmdbQdpk6z);
-</script>
-<script>
-    eval(mod_pagespeed_TUbgfw69GQ);
-</script>
-
-<script async=" " src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13 "></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
-</script>
-<script defer=" " src="../../../static.cloudflareinsights.com/beacon.min.js "
-    data-cf-beacon="{&quot;rayId&quot;:&quot;69470d4669111b6e&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.8.1&quot;,&quot;si&quot;:10} "></script>
+    <!-- Mirrored from preview.colorlib.com/theme/portech/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Sep 2021 20:37:57 GMT -->
 
 
-<!-- Mirrored from preview.colorlib.com/theme/portech/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Sep 2021 20:37:57 GMT -->
+    <script>
+        eval(mod_pagespeed_O55HKXLZnL);
+    </script>
+    <script>
+        eval(mod_pagespeed_mukP_p5mwJ);
+    </script>
+    <script
+        src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js "></script>
+    <script>
+        eval(mod_pagespeed_5LBDxQvOMp);
+    </script>
+    <script>
+        eval(mod_pagespeed_men54686W3);
+    </script>
+    <script>
+        eval(mod_pagespeed_MTpE$V0lEy);
+    </script>
+    <script>
+        eval(mod_pagespeed_c_aV2CVVmg);
+    </script>
+    <script
+        src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js "></script>
+    <script>
+        eval(mod_pagespeed_bW87uRdxE$);
+    </script>
+    <script>
+        eval(mod_pagespeed_KI316L8Msq);
+    </script>
+    <script>
+        eval(mod_pagespeed_t39KiUcvzC);
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false "></script>
+    <script>
+        eval(mod_pagespeed_lmdbQdpk6z);
+    </script>
+    <script>
+        eval(mod_pagespeed_TUbgfw69GQ);
+    </script>
+
+    <script async=" " src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13 "></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer=" " src="../../../static.cloudflareinsights.com/beacon.min.js "
+        data-cf-beacon="{&quot;rayId&quot;:&quot;69470d4669111b6e&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.8.1&quot;,&quot;si&quot;:10} "></script>
+
+
+    <!-- Mirrored from preview.colorlib.com/theme/portech/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Sep 2021 20:37:57 GMT -->
 
 
 
