@@ -509,6 +509,49 @@
             font-size: 3rem;
             color: white;
             letter-spacing: 2.5px;
+            /* font-weight: bold; */
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+
+        #hero-wrap .hero-container .page-title span {
+            font-size: 1.5rem;
+        }
+
+        @media screen and (max-width: 500px) {
+            #hero-wrap .hero-container .page-title {
+                font-size: 1.7rem;
+                line-height: 35px;
+            }
+
+            #hero-wrap .hero-container span {
+                font-size: 1rem;
+            }
+        }
+
+
+
+        /* ----------------------- imported header and navbar styles -------------------- */
+        /* 
+        #hero-wrap .hero-container {
+            background-image: url('IMAGES/header-photo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 45vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #hero-wrap a {
+            color: inherit;
+        }
+
+        #hero-wrap .hero-container .page-title {
+            font-size: 3rem;
+            color: white;
+            letter-spacing: 2.5px;
             line-height: 40px;
             margin-bottom: 20px;
         }
@@ -530,7 +573,7 @@
             #hero-wrap .hero-container span {
                 font-size: 1rem;
             }
-        }
+        } */
 
         nav {
             top: 0 !important;
@@ -755,10 +798,12 @@
                     </li>
                     <!--*********** copy ********** -->
                     <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Publications</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="membership.html" target="blank" class="nav-link">Membership</a></li>
-                    <li class="nav-item"><a href="magazine/magazine.html"><button class="botnav">Magazine</button></a>
+                    <li class="nav-item"><a href="magazine/magazine.html" target="blank" class="nav-link">Magazine</a>
+                    </li>
+                    <li class="nav-item"><a href="#"><button class="botnav">ACM<span
+                                    style="color: #0077b6;">_</span>W</button></a>
                     </li>
                 </ul>
             </div>
@@ -776,7 +821,7 @@
     <section id="hero-wrap">
         <div class="hero-container">
             <div class="container page-title">
-                <a style="margin-left: -5%;">ABOUT US</a>
+                <a style="margin-left: -5%; font-weight:549;">ABOUT US</a>
 
             </div>
         </div>
@@ -1044,6 +1089,10 @@
                                 <a href="Webmasters.html"><button class="botn">Webmasters</button></a>
                                 <a href="magazine/magazine.html"><button class="botn"
                                         style="margin-left:30px;">Magazine</button></a>
+                            </ul>
+                            <ul>
+                                <a href="https://forms.gle/85BA4KQqeKkARQdx5" target="blank"><button class="botn">Get in
+                                        Touch</button></a>
                             </ul>
 
                             <!-- <ul style="display: inline;"  class="ftco-footer-social list-unstyled mt-2">
