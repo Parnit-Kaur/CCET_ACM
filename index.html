@@ -870,7 +870,7 @@
             line-height: 1.35;
         }
 
-        .btn {
+        .btn.acm-w-btn {
             cursor: pointer;
             margin-top: 1.5rem;
             padding: 0.75rem 1.5rem;
@@ -885,11 +885,30 @@
 
         }
 
-        .btn:hover {
+        .btn.acm-w-btn:hover {
             color: black;
-            /*background-image: linear-gradient(to right, #caf0f8, #0077b6, #023e8a);*/
             background-image: linear-gradient(to right, white, white, white);
             background-color: black;
+        }
+
+        .btn {
+            cursor: pointer;
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 0.65rem;
+            font-weight: bold;
+            letter-spacing: 0.025rem;
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+            border: none;
+            background-image: linear-gradient(to right, #03045e, #023e8a, #0077b6);
+        }
+
+        .btn:hover {
+            color: black;
+            background-image: linear-gradient(to right, #caf0f8, #90e0ee, #00b4d8);
+            background-color: #0d0d0d;
         }
 
         .btn:focus {
@@ -1776,6 +1795,30 @@
                 max-height: auto;
             }
         }
+
+        /* ACM W SECTION MOBILE VIEW */
+        @media screen and (max-width: 450px) {
+            .ftco-faqs.services-section .row {
+                justify-content: center;
+            }
+
+            .ftco-faqs.services-section .col-md-6 {
+                width: 90%;
+                padding-left: 0;
+                padding-right: 0 !important;
+                justify-content: center;
+            }
+
+            .ftco-faqs.services-section .mb-5 {
+                text-align: center;
+            }
+
+            .ftco-faqs.services-section .collapse.show {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
     </style>
 
 </head>
@@ -2124,14 +2167,16 @@
                                             <!-- <li>A vast network of nearly 100,000 highly dedicated student and professional peers</li>
                                             <li>A full year subscription to ACM magazines and news letters.(Communications of the ACM, XRDS: Crossroads, MemberNet etc.)
                                             </li> -->
-                                            <li style="color: white;">ACM-W takes forward the torch of ACM but with a
+                                            <li style="color: white; list-style: none;">ACM-W takes forward the torch of
+                                                ACM but with a
                                                 special focus on women
                                                 and empowers them in a way that they lead the world in the field of
                                                 technology and provides them a path and platform to showcase their
                                                 talent
                                                 and hard work. Which also gets recognized at the global level.</li>
-                                            <li><a href="coming_soon.html"><button class="btn "
-                                                        style="color: black; "><strong>ACM - W</strong></button></a>
+                                            <li style="list-style: none;"><a href="coming_soon.html"><button
+                                                        class="btn acm-w-btn" style="color: black; "><strong>ACM -
+                                                            W</strong></button></a>
                                             </li>
 
                                         </ol>
