@@ -17,7 +17,8 @@
             width: 30%;
         }
 
-        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+
+
 
         * {
             margin: 0;
@@ -358,6 +359,7 @@
     <title>CCET | ACM | ABOUT</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Arizonia&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap"
         rel="stylesheet">
@@ -509,6 +511,49 @@
             font-size: 3rem;
             color: white;
             letter-spacing: 2.5px;
+            /* font-weight: bold; */
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+
+        #hero-wrap .hero-container .page-title span {
+            font-size: 1.5rem;
+        }
+
+        @media screen and (max-width: 500px) {
+            #hero-wrap .hero-container .page-title {
+                font-size: 1.7rem;
+                line-height: 35px;
+            }
+
+            #hero-wrap .hero-container span {
+                font-size: 1rem;
+            }
+        }
+
+
+
+        /* ----------------------- imported header and navbar styles -------------------- */
+        /* 
+        #hero-wrap .hero-container {
+            background-image: url('IMAGES/header-photo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 45vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #hero-wrap a {
+            color: inherit;
+        }
+
+        #hero-wrap .hero-container .page-title {
+            font-size: 3rem;
+            color: white;
+            letter-spacing: 2.5px;
             line-height: 40px;
             margin-bottom: 20px;
         }
@@ -530,7 +575,7 @@
             #hero-wrap .hero-container span {
                 font-size: 1rem;
             }
-        }
+        } */
 
         nav {
             top: 0 !important;
@@ -618,14 +663,16 @@
 
         .ftco-navbar-light .logo-w {
             display: inline;
-            max-width: 100% !important;
+            max-width: 400% !important;
             max-height: auto;
+            margin-left: -60px;
         }
 
         .ftco-navbar-light.scrolled .logo-b {
             display: inline;
-            max-width: 100% !important;
+            max-width: 400% !important;
             max-height: auto;
+            margin-left: -60px;
         }
 
         @media screen and (max-width: 768px) {
@@ -707,7 +754,7 @@
 </head>
 
 <body>
-
+    <!-- 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
             <div class="navbar-brand">
@@ -730,9 +777,85 @@
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="gallery_new.html" class="nav-link">Gallery</a></li>
+      
+
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Events
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #00b4d8;">
+            <a class="dropdown-item" href="events.html">Events</a>
+            <a class="dropdown-item" href="competitions.html">Competitions</a>
+        </div>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Team
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #00b4d8;">
+            <a class="dropdown-item" href="2021-team.html">Office Bearers</a>
+            <a class="dropdown-item" href="Executive_Members.html">Executive Members</a>
+            <a class="dropdown-item" href="Webmasters.html">Webmasters</a>
+        </div>
+    </li>
+
+    <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
+    <li class="nav-item"><a href="blog.html" class="nav-link">Publications</a></li>
+    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+    <li class="nav-item"><a href="magazine/magazine.html" target="blank" class="nav-link">Magazine</a>
+    </li>
+    <li class="nav-item"><a href="coming_soon.html"><button class="botnav">ACM<span
+                    style="color: #0077b6;">_</span>W</button></a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </nav> -->
+
+    <!--<section id="hero-wrap">
+        <div class="hero-container">
+            <div class="container page-title">
+                <a href="">About Us</a>
+              
+            </div>
+        </div>
+    </section>-->
+    <!-- <section id="hero-wrap">
+        <div class="hero-container">
+            <div class="container page-title">
+                <a style="margin-left: -5%; font-weight:bolder;">ABOUT US</a>
+
+            </div>
+        </div>
+
+    </section> -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <div class="navbar-brand">
+
+
+                <a href="index.html">
+                    <img class="logo-b" src="IMAGES/ccet-acm-logo-website.png" alt="CCET">
+                    <img class="logo-w" src="IMAGES/ccet-acm-logo-website-white.png" alt="CCET">
+
+                </a>
+                <button style="padding-left: 30%;" class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> <i class="fas fa-bars fa-2x"></i>
+
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="gallery_new.html" class="nav-link">Gallery</a></li>
                     <!-- <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li> -->
                     <!--*********** copy ********** -->
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown active">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             Events
@@ -755,31 +878,26 @@
                     </li>
                     <!--*********** copy ********** -->
                     <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Publications</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="membership.html" target="blank" class="nav-link">Membership</a></li>
-                    <li class="nav-item"><a href="magazine/magazine.html"><button class="botnav">Magazine</button></a>
+                    <li class="nav-item"><a href="magazine/magazine.html" target="blank" class="nav-link">Magazine</a>
+                    </li>
+                    <li class="nav-item"><a href="coming_soon.html"><button class="botnav">ACM<span
+                                    style="color: #0077b6;">_</span>W</button></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!--<section id="hero-wrap">
-        <div class="hero-container">
-            <div class="container page-title">
-                <a href="">About Us</a>
-              
-            </div>
-        </div>
-    </section>-->
     <section id="hero-wrap">
         <div class="hero-container">
             <div class="container page-title">
-                <a style="margin-left: -5%;">ABOUT US</a>
+                <a style="font-weight: bolder !important;;margin-left: 0%;">EVENTS</a>
 
             </div>
         </div>
+
 
     </section>
 
@@ -1014,6 +1132,9 @@
                     <div class="ftco-footer-widget explore mb-4 ml-md-4">
                         <h2 class="ftco-heading-2 h2_explore">Explore</h2>
                         <ul class="list-unstyled" style="padding-left: 0px;">
+                            <li class="nav-item h2_explore"><a href="coming_soon.html" class="nav-link li_explore">ACM
+                                    W</a>
+                            </li>
                             <li class="nav-item active h2_explore"><a href="index.html"
                                     class="nav-link li_explore">Home</a>
                             </li>
@@ -1024,8 +1145,7 @@
                             </li>
                             <li class="nav-item h2_explore"><a href="achievements.html"
                                     class="nav-link li_explore">Achievements</a></li>
-                            <li class="nav-item h2_explore"><a href="#" class="nav-link li_explore">ACM W</a>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -1044,6 +1164,10 @@
                                 <a href="Webmasters.html"><button class="botn">Webmasters</button></a>
                                 <a href="magazine/magazine.html"><button class="botn"
                                         style="margin-left:30px;">Magazine</button></a>
+                            </ul>
+                            <ul>
+                                <a href="https://forms.gle/85BA4KQqeKkARQdx5" target="blank"><button class="botn">Get in
+                                        Touch</button></a>
                             </ul>
 
                             <!-- <ul style="display: inline;"  class="ftco-footer-social list-unstyled mt-2">
