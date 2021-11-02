@@ -45,7 +45,7 @@
 
 	<!-- Font for header -->
 
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
 
 
@@ -98,6 +98,21 @@
 		border-left: 0px
 	}
 
+	.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+		font-weight: 900 !important;
+	}
+
+	/*-------- NABAR MEDIA QUERIES -----------*/
+	@media screen and (max-width: 768px) {
+		.ftco-navbar-light .logo-w {
+			margin-left: 0 !important;
+		}
+
+		.ftco-navbar-light.scrolled .logo-b {
+			margin-left: 0 !important;
+		}
+
+	}
 
 	/* ----------------------- imported header and navbar styles -------------------- */
 
@@ -325,14 +340,16 @@
 
 	.ftco-navbar-light .logo-w {
 		display: inline;
-		max-width: 100% !important;
+		max-width: 150% !important;
 		max-height: auto;
+		margin-left: -30%;
 	}
 
 	.ftco-navbar-light.scrolled .logo-b {
 		display: inline;
-		max-width: 100% !important;
+		max-width: 150% !important;
 		max-height: auto;
+		margin-left: -30%;
 	}
 
 	@media screen and (max-width: 768px) {
@@ -406,6 +423,10 @@
 			margin: 0 30px 0 0;
 		}
 
+		.ftco-heading-2.logo {
+			padding-top: 100px;
+			padding-bottom: 30px;
+		}
 	}
 </style>
 
@@ -465,9 +486,9 @@
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown"
 								style="background-color: #00b4d8;">
-								<a class="dropdown-item" href="/2021-team.html">Office Bearers</a>
-								<a class="dropdown-item" href="/Executive_Members.html">Executive Members</a>
-								<a class="dropdown-item" href="/Webmasters.html">Webmasters</a>
+								<a class="dropdown-item" href="../2021-team.html">Office Bearers</a>
+								<a class="dropdown-item" href="../Executive_Members.html">Executive Members</a>
+								<a class="dropdown-item" href="../Webmasters.html">Webmasters</a>
 							</div>
 						</li>
 						<!--*********** copy ********** -->
@@ -476,7 +497,7 @@
 						<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
 						<li class="nav-item active"><a href="magazine.html" class="nav-link">Magazine</a>
 						</li>
-						<li class="nav-item"><a href="#"><button class="botnav">ACM<span
+						<li class="nav-item"><a href="../coming_soon.html"><button class="botnav">ACM<span
 										style="color: #0077b6;">_</span>W</button></a>
 						</li>
 					</ul>
@@ -488,7 +509,7 @@
 
 			<div class="hero-container">
 				<div class="container page-title">
-					<a href="">MAGAZINE</a>
+					<a style="font-weight: bolder;">MAGAZINE</a>
 
 				</div>
 			</div>
@@ -830,6 +851,9 @@
 					<div class="ftco-footer-widget explore mb-4 ml-md-4">
 						<h2 class="ftco-heading-2 h2_explore" style="padding-left: 0;">Explore</h2>
 						<ul class="list-unstyled" style="padding-left: 0px;">
+							<li class="nav-item h2_explore"><a href="../coming_soon.html"
+									class="nav-link li_explore">ACM W</a>
+							</li>
 							<li class="nav-item active h2_explore"><a href="../index.html"
 									class="nav-link li_explore">Home</a>
 							</li>
@@ -841,8 +865,7 @@
 							</li>
 							<li class="nav-item h2_explore"><a href="../achievements.html"
 									class="nav-link li_explore">Achievements</a></li>
-							<li class="nav-item h2_explore"><a href="#" class="nav-link li_explore">ACM W</a>
-							</li>
+
 						</ul>
 					</div>
 				</div>
@@ -880,7 +903,7 @@
 			</div>
 			<h6 style="text-align:center;">Copyright © 2021 All rights reserved | Designed and
 				Developed by CCET ACM
-				<span><a href="Webmasters.html">Website Team</a></span>
+				<span><a href="../Webmasters.html">Website Team</a></span>
 			</h6>
 		</div>
 
@@ -940,8 +963,69 @@
 
 	<script src="js/js-mag/color-settings.js"></script>
 
+	<!-- NEW JS-->
+	<!--<script src="../js/bootstrap.min.js"></script>
+
+	<script src="../js/mixitup.js"></script>
+
+	<script src="../js/script.js"></script>
+
+	<script src="../js/jquery.min.js"></script>
+	<script
+		src="../js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.JASJvy2p6F.js"></script>
+	<script>eval(mod_pagespeed_rofLaRKIL4);</script>
+	<script>eval(mod_pagespeed_O55HKXLZnL);</script>
+	<script>eval(mod_pagespeed_mukP_p5mwJ);</script>
+	<script
+		src="../js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js"></script>
+	<script>eval(mod_pagespeed_5LBDxQvOMp);</script>
+	<script>eval(mod_pagespeed_men54686W3);</script>
+	<script>eval(mod_pagespeed_MTpE$V0lEy);</script>
+	<script>eval(mod_pagespeed_c_aV2CVVmg);</script>
+	<script
+		src="../js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js"></script>
+	<script>eval(mod_pagespeed_bW87uRdxE$);</script>
+	<script>eval(mod_pagespeed_KI316L8Msq);</script>
+	<script>eval(mod_pagespeed_t39KiUcvzC);</script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+	<script>eval(mod_pagespeed_lmdbQdpk6z);</script>
+	<script>eval(mod_pagespeed_TUbgfw69GQ);</script>-->
 
 
+
+	<!--<script src="../js/jquery.min.js"></script>-->
+	<script
+		src="../js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.JASJvy2p6F.js"></script>
+	<script>eval(mod_pagespeed_rofLaRKIL4);</script>
+	<script>eval(mod_pagespeed_O55HKXLZnL);</script>
+	<script>eval(mod_pagespeed_mukP_p5mwJ);</script>
+	<script
+		src="../js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js"></script>
+	<script>eval(mod_pagespeed_5LBDxQvOMp);</script>
+	<script>eval(mod_pagespeed_men54686W3);</script>
+	<script>eval(mod_pagespeed_MTpE$V0lEy);</script>
+	<script>eval(mod_pagespeed_c_aV2CVVmg);</script>
+	<script
+		src="../js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js"></script>
+	<script>eval(mod_pagespeed_bW87uRdxE$);</script>
+	<script>eval(mod_pagespeed_KI316L8Msq);</script>
+	<script>eval(mod_pagespeed_t39KiUcvzC);</script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+	<script>eval(mod_pagespeed_lmdbQdpk6z);</script>
+	<script>eval(mod_pagespeed_TUbgfw69GQ);</script>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-23581568-13');
+	</script>
+	<script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
+		data-cf-beacon='{"rayId":"69470d4c9fc41b98","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.8.1","si":10}'></script>
 </body>
 
 </html>
