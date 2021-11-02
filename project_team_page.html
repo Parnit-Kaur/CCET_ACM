@@ -337,6 +337,20 @@
                 max-height: auto;
             }
         }
+        @media screen and (max-width: 768px){
+            .img_cod{
+                height: 300px;
+                width: 300px;
+            }
+        }
+        @media screen and (min-width: 768px){
+            .img_cod{
+                height: 500px;
+                width: 500px;
+                vertical-align:middle;
+                margin:100px 0px
+            }
+        }
     </style>
 </head>
 
@@ -457,8 +471,7 @@
                 <div class="col-md-6 mb-5 md-md-0" id="photo1">
                     <div class="img w-100 mb-4" id="img1"
                         style="height: 90%; padding-top: 5em;position: relative; top: 10%;">
-                        <img src="IMAGES/Vectors/project_copy.png" height="550" width="550"
-                            style="vertical-align:middle;margin:100px 0px">
+                        <img class="img_cod" src="IMAGES/Vectors/project_copy.png" >
                     </div>
 
 
