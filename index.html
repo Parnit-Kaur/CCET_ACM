@@ -840,6 +840,14 @@
         .team_card:nth-child(4):before {
             background-image: url(IMAGES/Vectors/project_copy.png);
         }
+        .team_card_:nth-child(1):before {
+            background-image: url(IMAGES/Vectors/student\ speaker-02.png);
+        }
+
+        
+        .team_card_:nth-child(3):before {
+            background-image: url(IMAGES/Vectors/career.png);
+        }
 
         .team_card .content {
             position: relative;
@@ -1288,7 +1296,14 @@
             max-width: 60%;
             margin-left: 30%;
             margin-right: 30%;
+            margin-top: 5%;
+        }
+        .mag-head {
+            margin-left: 34%;
+            margin-right: 18%;
             margin-top: 8%;
+            margin-bottom: -8%;
+
         }
 
         .carousel-control-prev {
@@ -1356,7 +1371,13 @@
                 max-width: 70%;
                 margin-left: 20%;
                 margin-right: 10%;
-                margin-top: 100%;
+                margin-top: 70%;
+            }
+            .mag-head {
+                margin-left: 15%;
+                margin-right: 5%;
+                margin-top: 8%;
+                margin-bottom: -8%;
             }
 
             .carousel-control-prev {
@@ -1412,16 +1433,37 @@
                 max-width: 70%;
                 margin-left: 20%;
                 margin-right: 10%;
-                margin-top: 4%;
+                margin-top: 2%;
+            }
+            .mag-head {
+                margin-left: 15%;
+                margin-right: 5%;
+                margin-top: 8%;
+                margin-bottom: -8%;
             }
         }
 
+        @media screen and (max-width: 40000px) and (min-width: 1561px) {
+
+            .mag-head {
+                margin-left: 34%;
+                margin-right: 18%;
+                margin-top: 8%;
+                margin-bottom: 0%;
+            }
+        }
         @media screen and (max-width: 1560px) and (min-width: 1500px) {
             .mag-cover {
                 max-width: 50%;
                 margin-left: 20%;
                 margin-right: 10%;
-                margin-top: 20%;
+                margin-top: 15%;
+            }
+            .mag-head {
+                margin-left: -3%;
+                margin-right: 5%;
+                margin-top: 8%;
+                margin-bottom: -8%;
             }
         }
 
@@ -1440,9 +1482,14 @@
                 max-width: 60%;
                 margin-left: 20%;
                 margin-right: 10%;
-                margin-top: 20%;
+                margin-top: 15%;
             }
-
+            .mag-head {
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 8%;
+                margin-bottom: -8%;
+            }
             .carousel-control-prev {
                 left: 20%
             }
@@ -1457,9 +1504,14 @@
                 max-width: 70%;
                 margin-left: 20%;
                 margin-right: 10%;
-                margin-top: 20%;
+                margin-top: 15%;
             }
-
+            .mag-head {
+                margin-left: 15%;
+                margin-right: 5%;
+                margin-top: 8%;
+                margin-bottom: -8%;
+            }
             .carousel-control-prev {
                 left: 20%
             }
@@ -1502,7 +1554,13 @@
                 max-width: 80%;
                 margin-left: 15%;
                 margin-right: 5%;
-                margin-top: 34%;
+                margin-top: 27%;
+            }
+            .mag-head {
+                margin-left: 10%;
+                margin-right: 0%;
+                margin-top: 8%;
+                margin-bottom: -8%;
             }
         }
 
@@ -1819,6 +1877,23 @@
                 margin-right: auto;
             }
         }
+        .team_card_{
+            height: 80%;
+            width: 200%;
+            padding-right: 40px;
+            /* margin-left: 500px; */
+        }
+        @media screen and (max-width:768px){
+            .team_card_{
+            height: 350px;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .title{
+            padding-top: 0;
+        }
+        }
     </style>
 
 </head>
@@ -1937,6 +2012,7 @@
     </section>
 
     <div class="row" id="abcd" style="width:100%; padding-left: 5%;">
+        <!-- <marquee behavior="scroll" direction="left"> -->
         <div class="col-md-8 col-lg-8 col-sm-1" id="up">
             <div class="updates">
                 <div class="cd-slider">
@@ -2070,6 +2146,7 @@
                             </div>
                         </li>
                     </ul>
+                
                     <div class="nav">
                         <a href="#" class="prev">
                             <svg viewBox="0 0 20 20" style="background-color: #0077b6;">
@@ -2101,8 +2178,8 @@
                         </svg>
                     </a>
                 </div class="nav">
-
             </div>
+        <!-- </marquee> -->
         </div>
 
         <div class="col-md-4 col-lg-4 col-sm-1" style="overflow-x: hidden;">
@@ -2110,8 +2187,8 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div>
 
-                    <h3
-                        style="text-align: center;color: #0077b6;font-weight: bolder;margin-bottom: -7%;padding-top: 30px;">
+                    <h3 class="mag-head"
+                        style="text-align: center; color: #0077b6;font-weight: bolder;">
                         DIGITAL OUTLET</h3>
                 </div>
                 <div class="carousel-inner ">
@@ -2316,6 +2393,33 @@
                         </p>
 
                         <p><a href="project_team_page.html" target="_blank" class="btn btn-primary">Learn More</a></p>
+                    </div>
+                </div>
+            </main>
+            <main class="page-content">
+                <div style="background-color: #023e8a; text-shadow: 1px 1px 1px black;" class="team_card team_card_">
+                    <div class="content">
+                        <h2 class="title" style="text-shadow: 0.5px;padding-top: 20px;">Student Speaker Program</h2>
+                        <p class="copy" style="color: white;">The CCET ACM Student Chapter has a well to do project team
+                            intended for implementing the learning by taking up various types of projects and research
+                            work.
+                        </p>
+                        
+                        <p><a href="events.html" target="_blank" class="btn btn-primary">Learn More</a></p>
+                    </div>
+                </div>
+                <div>
+                    
+                </div>
+                <div style="background-color: #023e8a; text-shadow: 1px 1px 1px black;" class="team_card team_card_">
+                    <div class="content">
+                        <h2 class="title" style="text-shadow: 0.5px;padding-top: 20px;">Internship and Career Opportunities</h2>
+                        <p class="copy" style="color: white;">The CCET ACM Student Chapter has a well to do project team
+                            intended for implementing the learning by taking up various types of projects and research
+                            work.
+                        </p>
+                        
+                        <p><a href="#" target="_blank" class="btn btn-primary">Learn More</a></p>
                     </div>
                 </div>
             </main>
