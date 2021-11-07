@@ -460,12 +460,40 @@
             height: 100vh;
         }
 
-        @media screen and (max-width: 500px) {
-            #hero-wrap .hero-container .page-title {
-                font-size: 1.7rem;
-                line-height: 35px;
-            }
+@media screen and (max-width: 1000px) {
+    #hero-wrap .hero-container {
+        height: 15vh;
+        margin-bottom: 0%;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    #hero-wrap .hero-container .page-title {
+        font-size: 1.7rem;
+        line-height: 35px;
+    }
+    #hero-wrap .hero-container span {
+        font-size: 1rem;
+    }
+    #hero-wrap .hero-container {
+        height: 12vh;
+        margin-bottom: 0%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #hero-wrap .hero-container {
+        height: 12vh;
+        margin-bottom: 0%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #hero-wrap .hero-container {
+        height: 12vh;
+        margin-bottom: 0%;
+    }
+}
             #hero-wrap .hero-container span {
                 font-size: 1rem;
             }
