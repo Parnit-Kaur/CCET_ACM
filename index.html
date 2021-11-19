@@ -1905,6 +1905,59 @@
                 padding-top: 0;
             }
         }
+
+        /* ACM W SECTION MOBILE VIEW */
+
+        @media screen and (max-width: 450px) {
+            .ftco-faqs.services-section .row {
+                justify-content: center;
+            }
+
+            .ftco-faqs.services-section .col-md-6 {
+                width: 90%;
+                padding-left: 0;
+                padding-right: 0 !important;
+                justify-content: center;
+            }
+
+            .ftco-faqs.services-section .mb-5 {
+                text-align: center;
+            }
+
+            .ftco-faqs.services-section .collapse.show {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        .acmw_img {
+            width: 70%;
+            filter: grayscale(0);
+            margin-top: 0px;
+            margin-left: 20%;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        @media screen and (max-width:450px) {
+            .acmw_img {
+                width: 80%;
+                margin-top: 0;
+                margin-left: 0;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .acmw-about {
+                margin-top: 50px;
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+            .acmw-about {
+                margin-top: 150px;
+            }
+        }
     </style>
 
 </head>
@@ -2342,8 +2395,7 @@
                 </div>
                 <div class="col-md-6 mb-5 md-md-0 ">
                     <div class="img w-100 mb-4 acmw-about">
-                        <img style="width: 70%;filter: grayscale(0); margin-top: 0px; margin-left: 20%; box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);"
-                            src="IMAGES/ACM-W/acm-w-logo.png" alt="acm-w logo">
+                        <img class="acmw_img" src="IMAGES/ACM-W/acm-w-logo.png" alt="acm-w logo">
                     </div>
                 </div>
 
